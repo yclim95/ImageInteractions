@@ -11,7 +11,7 @@
     tools:context="com.yclim.image.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/cat1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="262dp"
@@ -25,5 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="New Button" />
+        android:onClick="clickFunction"
+        android:text="Change Me" />
 </RelativeLayout>
